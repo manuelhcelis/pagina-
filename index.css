@@ -1,0 +1,197 @@
+﻿* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+}
+p {
+font-family: 'Source Sans Pro', sans-serif;
+
+}
+h1, h2, h3 ,h4, h5, h6, a {
+	font-family: 'Roboto Slab', serif;
+}
+
+a {
+	text-decoration: none;
+}
+p {
+	text-align: justify;
+}
+body {
+	background: white;
+}
+/* barra de navegacion */
+header {
+	width: 100%;
+	margin: auto;
+}
+
+header nav {
+	background: black;
+	overflow: hidden;
+	margin: 5px 5px 5px 5px auto;
+}
+
+header nav ul {
+	list-style: none;
+	line-height: 30px;
+	height: 100%;
+	border: 10px red inherit;
+}
+
+header nav ul li {
+	float: left;
+	padding: 10px;
+	transition: 0.5s;
+}
+header nav ul li:hover {
+	background: white;
+	border-radius: 10px;
+}
+
+header nav ul li a {
+	color: blue;
+	text-decoration: none;
+	transition: 0.5s;
+	padding: 10px;
+}
+
+header nav ul li a:hover {
+	color: black;
+}
+
+/* section */
+section {
+	width: 100%;
+	overflow: hidden;
+}
+section {
+	width: 90%;
+	margin: 10px auto;
+}
+section ul {
+	display: block;
+	box-sizing: border-box;
+}
+section ul li {
+	float: left;
+	background: white: ;
+	list-style: none;
+	box-sizing: border-box;
+	margin: auto;	
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	border-radius: 10px;
+	width: 33.33%;
+	margin: 13px auto;
+	padding: 5px;
+
+}
+section ul li div.nombre-pro {
+	margin: 5px;
+}
+section ul li div.nombre-pro a {
+	font-size: 20px;
+	color: blue;
+}
+section ul li div.informacion-pro {
+		text-align: justify-all;
+		padding: 5px;
+}
+/* parte de inicio */
+section div.contenedor {
+	margin: 10px;
+	padding: 10px;
+	border-right: 3px solid blue;
+	border-left: 3px solid blue;
+	border-radius: 5px;
+}
+section div.contenedor p {
+	text-align: justify;
+}
+
+
+/* footer */
+
+footer {
+	width: 100%;
+	display: block;
+}  
+
+footer div {
+	float: left;
+	background: red;
+}
+
+footer div#desarrolladores {
+	width: 30%;
+	height: 50px;
+	line-height: 50px;
+	transiti on: 0.5s;
+}
+footer div#desarrolladores:hover {
+	background: black;
+	color: white;
+}
+footer div#sociales ul {
+	list-style: none;
+}
+footer div#sociales {
+	width: 70%;
+	height: 50px;
+}
+footer div#sociales ul{
+	display: block;
+}
+footer div#sociales ul li{
+	float: left;
+}	
+
+footer div#sociales ul li a{
+	text-decoration: none;
+	color: black;
+	transition: 0.5s;
+	padding-right: 50px;	
+	line-height: 50px;
+	padding-left: 50px;
+}
+footer div#sociales a:hover {
+	color: black;
+	background: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 15px;
+	width: 100%;
+	
+}
+
+/* activo */
+.active {
+	background: white;
+	color: black;
+}
+
+.menu-fixed {
+	position: fixed;
+	/* para que se ponga encima de todas las imágenes */
+	z-index: 1000;
+	top: 0;
+	width: 100%;
+	left:0;
+	margin-top: 0%;
+	/*max-width: 100%;*/ 
+}
+
+/* articulos */
+
+section div.contenedor-articulos img {
+	width: 24%;
+	transition: 0.3s;
+	clear: both;
+}
+
+section div.contenedor-articulos img:hover {
+	transform: scale(1.5);
+}
